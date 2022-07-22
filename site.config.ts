@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'LB',
+  name: 'Light Block',
   domain: 'https://www.notion.so/7561e10afc084759811baeee84db7306?v=627c416169f44086bb24421748e964a0',
   author: 'qvq',
 
