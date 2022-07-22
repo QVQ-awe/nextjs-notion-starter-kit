@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7561e10afc084759811baeee84db7306?v=f1d68ca5a9944577a139e6aefd0930e0',
+  rootNotionPageId: 'f945337f4f0242a0859099652a198987',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Light Block',
-  domain: 'https://www.notion.so/7561e10afc084759811baeee84db7306?v=627c416169f44086bb24421748e964a0',
+  domain: 'https://www.notion.so/lighe-block-f945337f4f0242a0859099652a198987',
   author: 'qvq',
 
   // open graph metadata (optional)
