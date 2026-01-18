@@ -60,3 +60,16 @@ body {
 ::-webkit-scrollbar-track {           
     background-color: var(--bg-color);
 }
+
+.github-corner,
+.github-corner *,
+.github-corner svg,
+.github-fork-ribbon,
+.fork-ribbon,
+.ribbon,
+a.github-corner,
+#github-corner {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
