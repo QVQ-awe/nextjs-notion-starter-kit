@@ -219,3 +219,10 @@
 .hidden {
   visibility: hidden;
 }
+
+/* Hide the GitHub corner completely */
+.githubCorner {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
