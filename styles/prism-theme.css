@@ -123,3 +123,25 @@ pre[class*='language-']:before,
 pre[class*='language-']:after {
   display: none !important;
 }
+/* ===== 自动换行：温和模式（推荐） =====
+   - 保持代码保留原格式但允许在需要时换行
+   - 不会在短行上强制断词，只会在超长行和长 URL/字符串上换行
+*/
+pre[class*="language-"],
+pre[class*="language-"] > code,
+.notion-code pre,
+.notion-code code {
+  white-space: pre-wrap !important;     /* 允许换行并保留空白 */
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;               /* 旧浏览器兼容 */
+  overflow-wrap: anywhere;             /* 在必要处断行，较友好 */
+  word-break: normal;                  /* 不强制随意断词 */
+  max-width: 100%;
+}
+
+/* 保留横向滚动作为回退（如果你想完全禁止横向滚动把 auto 换成 hidden） */
+pre[class*="language-"] {
+  overflow-x: auto;
+}
